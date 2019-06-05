@@ -38,7 +38,7 @@ int main(void) {
 		decoder("zip.dat", "texts.dat", root);
 	}
 	else {
-		cout << "команда не распознана";
+		cout << "команда не распознана"<<endl;
 	}
 	system("pause");
 	return 0;
